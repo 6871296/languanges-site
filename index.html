@@ -3,22 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title>Languanges Site：提供各种编程语言的相关网站</title>
+        <link rel="stylesheet" href="/css/main.css">
         <style>
-            nav{
-                background-color: cyan;
-                height:1.2cm;
+            .btn{
+                margin: 5px;
             }
-            .nav-top{
-                height: 9px;
-            }
-            .nav-item{
-                color:black;
-                margin:6px;
-                text-align: center;
+            .btn-box{
+                height: 30px;
+                line-height: 20px;
+                margin:15px 5px;
+                background-color: #00a0f0;
+                color: white;
                 text-decoration: none;
+                border-radius: 5px;
             }
-            .nav-item:hover{
-                background-color: #00aaaa;
+            .btn-box:hover{
+                background-color: #2ea0ff;
+            }
+            strong{
+                font-weight: bold;
+                color: #0070c0;
+            }
+            img{
+                width: 30px;
+                height: 30px;
+                vertical-align: middle;
             }
         </style>
     </head>
@@ -30,71 +39,143 @@
             <a href="./download-tutorial" class="nav-item">下载教程</a>
         </nav>
         <h1>Languanges Site</h1>
-        <p>编程新手建议收藏<a href=".">本网站</a></p>
+        <p style="font-size: 20px; font-weight: bold; color: #00a0f0">编程新手<strong>强烈建议收藏！</strong></p>
         <p>
-            languanges site目前包含使用<strong>Python、C/C++和Java</strong>三款主流编程语言，以及新加入的<strong>Rust</strong>，还有<strong>HTML、CSS和Javascript</strong>网页三大语言所用到的<strong>最常用的网址</strong>及其<strong>维基百科、百度百科</strong>以及编程语言的<strong>完整下载安装教程</strong>，还有程序设计<strong>最实用的工具</strong>。<br>
+            Languanges Site目前包含：<br>
+            1. <strong>Python、C/C++和Java</strong>三款主流编程语言，以及新加入的<strong>Rust</strong><br>
+            2. <strong>HTML、CSS和Javascript</strong>网页三大语言<br>
+            3. 关于它们<strong>最常用的网址</strong>及其<strong>维基百科、百度百科</strong>以及编程语言的<strong>完整下载安装教程</strong>（制作中）<br>
+            4. 还有程序设计<strong>最实用的工具</strong>。<br>
             欢迎访问！
         </p>
+        <p>
+            本网站图源：<br>
+            <img src="https://avatars.githubusercontent.com/u/66767815?s=48&v=4"><a href="https://github.com/devicons/devicon/tree/master" class="btn-box">
+                <span class="btn">Devicon图标集</span>
+            </a> 及从其它网站使用开发者工具获取的图标。<br>
+            侵权请联系删除或替换。
+        </p>
         <div>
-            <h2>Python</h2>
-            <a href="https://python.org">Python官网</a><br>
-            <a href="./download-tutorial/python">Python下载安装教程</a>
+            <h2><img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/python/python-original.svg">Python</h2>
+            <a href="https://python.org" class="btn-box">
+                <span class="btn">Python官网</span>
+            </a>
+            <a href="./download-tutorial/python" class="btn-box">
+                <span class="btn">Python下载安装教程</span>
+            </a>
             <br><br>
-            <a href="https://www.python.org/ftp/python/3.13.7/python-3.13.7-macos11.pkg">Python13.3.7 macOS官方下载直链</a><br>
-            <a href="https://www.python.org/downloads/release/python-3137/">Python13.3.7 Windows官方下载直链</a>
+            Python13.3.7官方下载直链：<br>
+            <a href="https://www.python.org/ftp/python/3.13.7/python-3.13.7-macos11.pkg" class="btn-box">
+                <span class="btn">macOS</span>
+            </a>
+            <a href="https://www.python.org/downloads/release/python-3137/" class="btn-box">
+                <span class="btn">Windows</span>
+            </a>
             <br><br>
-            <a href="https://baike.baidu.com/item/Python/407313">Python-百度百科</a><br>
-            <a href="https://zh.wikipedia.org/wiki/Python">Python-维基百科</a>
+            <a href="https://baike.baidu.com/item/Python/407313" class="btn-box">
+                <span class="btn">Python-百度百科</span>
+            </a>
+            <a href="https://zh.wikipedia.org/wiki/Python" class="btn-box">
+                <span class="btn">Python-维基百科</span>
+            </a>
         </div>
         <div>
-            <h2>C/C++</h2>
-            <a href="https://cplusplus.com">C++官方论坛</a><br>
-            <a href="./download-tutorial/c">C++下载安装教程</a>
+            <h2><img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/c/c-original.svg"><img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/cplusplus/cplusplus-original.svg"> C/C++</h2>
+            <a href="https://cplusplus.com" class="btn-box">
+                <span class="btn">C++官方论坛</span>
+            </a>
+            <a href="./download-tutorial/c" class="btn-box">
+                <span class="btn">C++下载安装教程</span>
+            </a>
             <br><br>
-            <a href="https://m.bloodshed.net">DEV-C++官网</a><br>
-            <a href="https://sourceforge.net/projects/dev-cpp/files/Binaries/Dev-C%2B%2B%204.9.9.2/devcpp-4.9.9.2_setup.exe/download">DEV-C++ 4.9.9.2 Windows下载</a> 含各项扩展，<strong>但据说最新只支持到winxp</strong><br>
+            <img src="https://m.bloodshed.net/favicon.png">
+            <a href="https://m.bloodshed.net" class="btn-box"><span class="btn">DEV-C++官网</span>
+            </a>
             <br><br>
-            <a href="https://baike.baidu.com/item/C%2B%2B/99272">C++-百度百科</a><br>
-            <a href="https://zh.wikipedia.org/wiki/C%2B%2B">C++-维基百科</a>
+            DEV-C++ 4.9.9.2：
+            <a href="https://sourceforge.net/projects/dev-cpp/files/Binaries/Dev-C%2B%2B%204.9.9.2/devcpp-4.9.9.2_setup.exe/download" class="btn-box">
+                <span class="btn">Windows下载</span>
+            </a><br>
+            含各项扩展，<span style="font-weight:bold; color:red;">但据说最新只支持到winxp</span><br><!--因为strong无法调红色所以用span代替了-->
+            <br><br>
+            <a href="https://baike.baidu.com/item/C%2B%2B/99272" class="btn-box">
+                <span class="btn">C++-百度百科</span>
+            </a>
+            <a href="https://zh.wikipedia.org/wiki/C%2B%2B" class="btn-box">
+                <span class="btn">C++-维基百科</span>
+            </a>
         </div>
         <div>
-            <h2>Java</h2>
-            <a href="https://java.com">Java官网</a><br>
-            <a href="https://www.java.com/zh-cn/download/manual.jsp">Java各版本下载安装</a>
+            <h2><img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/java/java-original.svg">Java</h2>
+            <a href="https://java.com" class="btn-box">
+                <span class="btn">Java官网</span>
+            </a>
+            <a href="https://www.java.com/zh-cn/download/manual.jsp" class="btn-box">
+                <span class="btn">Java各版本下载安装</span>
+            </a>
             <br><br>
-            <a href="https://baike.baidu.com/item/Java/85979">Java-百度百科</a><br>
-            <a href="https://zh.wikipedia.org/wiki/Java">Java-维基百科</a>
+            <a href="https://baike.baidu.com/item/Java/85979" class="btn-box">
+                <span class="btn">Java-百度百科</span>
+            </a>
+            <a href="https://zh.wikipedia.org/wiki/Java" class="btn-box">
+                <span class="btn">Java-维基百科</span>
+            </a>
         </div>
         <div>
-            <h2>Rust<font color="green">（新）</font></h2>
-            <a href="https://rust-lang.org/zh-CN/">Rust官网</a><br>
-            <a href="./download-tutorial/rust">Rust下载安装教程</a>
+            <h2><img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/rust/rust-original.svg">Rust</h2>
+            <a href="https://rust-lang.org/zh-CN/" class="btn-box">
+                <span class="btn">Rust官网</span>
+            </a>
+            <a href="./download-tutorial/rust"class="btn-box">
+                <span class="btn">Rust下载安装教程</span>
+            </a>
             <br><br>
-            <a href="https://baike.baidu.com/item/Rust%E8%AF%AD%E8%A8%80/9502634#3-1">Rust-百度百科</a><br>
-            <a href="https://zh.wikipedia.org/wiki/Rust">Rust-维基百科</a>
+            <a href="https://baike.baidu.com/item/Rust%E8%AF%AD%E8%A8%80/9502634#3-1"class="btn-box">
+                <span class="btn">Rust-百度百科</span>
+            </a>
+            <a href="https://zh.wikipedia.org/wiki/Rust"class="btn-box">
+                <span class="btn">Rust-维基百科</span>
+            </a>
         </div>
         <div>
-            <h2>网页三大语言（HTML、CSS、Javascript）</h2>
+            <h2>网页三大语言（<img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/html5/html5-original.svg">HTML、<img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/css3/css3-original.svg">CSS、<img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/javascript/javascript-plain.svg">Javascript）</h2>
             <p>※HTML（Hyper Text Markup Languange）：超文本标记语言</p>
-            <a href="https://www.w3.org/zh-hans/">W3C（万维网联盟）</a>（内有大量三大语言使用标准）<br>
-            <a href="https://developer.mozilla.org/zh-CN/">MDN Web Docs</a>（前端开发者资源平台，由FireFox开发团队Mozilla创建，有语法速查表）
+            <a href="https://www.w3.org/zh-hans/" class="btn-box">
+                <span class="btn">W3C（万维网联盟）</span>
+            </a>（内有大量三大语言使用标准）
             <br><br>
-
+            <a href="https://developer.mozilla.org/zh-CN/" class="btn-box">
+                <span class="btn">MDN Web Docs</span>
+            </a>（前端开发者资源平台，由FireFox开发团队Mozilla创建，有语法速查表）
         </div>
         <div>
             <h2>程序设计实用工具</h2>
             <div>
                 <h3>OJ</h3>
                 <p>※OJ（Online Judge）：在线测评</p>
-                <a href="https://luogu.com">洛谷</a>（全国知名大OJ网站）<br>
-                <a href="https://deeplearning.org.cn">深度学习</a>（不太知名的中小型OJ，但貌似能向CF提交代码，与洛谷很类似但题更简单）<br>
-                <a href="https://codeforces.com">CodeForces</a>（简称CF，中国比较知名的俄罗斯OJ网站，比较难用）<br>
+                <img src="https://www.luogu.com.cn/favicon.ico"><a href="https://luogu.com" class="btn-box">
+                    <span class="btn">洛谷</span>
+                </a>（全国知名大OJ网站）
+                <br><br>
+                <img src="https://deeplearning.org.cn/favicon.ico"><a href="https://deeplearning.org.cn"class="btn-box">
+                    <span class="btn">深度学习</span>
+                </a>（不太知名的中小型OJ，但貌似能向CF提交代码，与洛谷很类似但题更简单）
+                <br><br>
+                <img src="https://codeforces.org/s/75161/favicon-96x96.png"><a href="https://codeforces.com" class="btn-box">
+                    <span class="btn">CodeForces</span>
+                </a>（简称CF，中国比较知名的俄罗斯OJ网站，比较难用）
             </div>
             <div>
                 <h3>IDE</h3>
                 <p>DEV-C++已经在C/C++里面出现过了，在此不再赘述。</p>
-                <a href="https://code.visualstudio.com/Download">Visusal Studio Code</a>（简称VSCode，几乎支持所有编程语言）<br>
-                <a href="https://vscode.dev/?vscode-lang=zh-cn">VSCode网页版</a>
+                <img src="https://code.visualstudio.com/assets/favicon.ico
+                "><a href="https://code.visualstudio.com/Download" class="btn-box">
+                    <span class="btn">Visusal Studio Code</span>
+                </a>（简称VSCode，几乎支持所有编程语言）
+                <br><br>
+                <a href="https://vscode.dev/?vscode-lang=zh-cn" class="btn-box">
+                    <span class="btn">VSCode网页版</span>
+                </a>
             </div>
         </div>
     </body>
